@@ -37,11 +37,11 @@ When a visitor comes to an article with a really long scrollbar, they are often 
 == Changelog ==
 
 = 1.0 =
-* 2012-12-13
+* 2013-02-25
 * Initial release
 
 == Upgrade Notice ==
 
 = 1.0 =
-* 2012-12-13
+* 2013-02-25
 * Initial release
