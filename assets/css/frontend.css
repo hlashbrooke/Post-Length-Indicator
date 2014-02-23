@@ -1,0 +1,14 @@
+#post_length_indicator {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 10px;
+	z-index: 100;
+	-webkit-transition: width 0.2s ease;
+	-moz-transition: width 0.2s ease;
+	-o-transition: width 0.2s ease;
+	transition: width 0.2s ease;
+}
+#post_length_indicator:hover {
+	width: 20px;
+}
