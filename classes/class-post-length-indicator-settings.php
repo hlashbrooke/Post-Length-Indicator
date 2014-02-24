@@ -70,6 +70,8 @@ class Post_Length_Indicator_Settings {
 		$default_types = array();
 		foreach( $post_types as $type ) {
 
+			if( in_array( $type, array( 'wooframework' ) ) ) continue;
+
 			if( ! post_type_exists( $type ) ) continue;
 
 			$type_obj = get_post_type_object( $type );
@@ -164,27 +166,6 @@ class Post_Length_Indicator_Settings {
 		}
 
 		switch( $field['type'] ) {
-			case 'text':
-			case 'password':
-			case 'number':
-				$html .= '<input id="' . esc_attr( $field['id'] ) . '" type="' . $field['type'] . '" name="' . esc_attr( $option_name ) . '" placeholder="' . esc_attr( $field['placeholder'] ) . '" value="' . $data . '"/>' . "\n";
-			break;
-
-			case 'text_secret':
-				$html .= '<input id="' . esc_attr( $field['id'] ) . '" type="text" name="' . esc_attr( $option_name ) . '" placeholder="' . esc_attr( $field['placeholder'] ) . '" value=""/>' . "\n";
-			break;
-
-			case 'textarea':
-				$html .= '<textarea id="' . esc_attr( $field['id'] ) . '" rows="5" cols="50" name="' . esc_attr( $option_name ) . '" placeholder="' . esc_attr( $field['placeholder'] ) . '">' . $data . '</textarea><br/>'. "\n";
-			break;
-
-			case 'checkbox':
-				$checked = '';
-				if( $option && 'on' == $option ){
-					$checked = 'checked="checked"';
-				}
-				$html .= '<input id="' . esc_attr( $field['id'] ) . '" type="' . $field['type'] . '" name="' . esc_attr( $option_name ) . '" ' . $checked . '/>' . "\n";
-			break;
 
 			case 'checkbox_multi':
 				foreach( $field['options'] as $k => $v ) {
@@ -194,9 +175,6 @@ class Post_Length_Indicator_Settings {
 					}
 					$html .= '<label for="' . esc_attr( $field['id'] . '_' . $k ) . '"><input type="checkbox" ' . checked( $checked, true, false ) . ' name="' . esc_attr( $option_name ) . '[]" value="' . esc_attr( $k ) . '" id="' . esc_attr( $field['id'] . '_' . $k ) . '" /> ' . $v . '</label> ';
 				}
-			break;
-
-			case 'select':
 			break;
 
 			case 'color':

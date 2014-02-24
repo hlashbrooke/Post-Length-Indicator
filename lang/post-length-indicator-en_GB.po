@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Post Length Indicator v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-02-23 16:34:03+0000\n"
+"PO-Revision-Date: 2014-02-24 07:49:31+0000\n"
 "Last-Translator: Hugh Lashbrooke <hlashbrooke@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -30,53 +30,58 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:81
+#: classes/class-post-length-indicator-settings.php:83
 #@ post-length-indicator
 msgid "Customise Indicator"
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:82
+#: classes/class-post-length-indicator-settings.php:84
 #@ post-length-indicator
 msgid "Customise where and how the post length indicator is displayed"
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:86
+#: classes/class-post-length-indicator-settings.php:88
 #@ post-length-indicator
 msgid "Post indicator colour"
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:87
+#: classes/class-post-length-indicator-settings.php:89
 #@ post-length-indicator
 msgid "The colour for the post (top) section of the indicator."
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:93
+#: classes/class-post-length-indicator-settings.php:95
 #@ post-length-indicator
 msgid "Comment indicator colour"
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:94
+#: classes/class-post-length-indicator-settings.php:96
 #@ post-length-indicator
 msgid "The colour for the comments (bottom) section of the indicator."
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:100
+#: classes/class-post-length-indicator-settings.php:102
 #@ post-length-indicator
 msgid "Post types"
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:101
+#: classes/class-post-length-indicator-settings.php:103
 #@ post-length-indicator
 msgid "The post types on which the indicator will display."
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:233
+#: classes/class-post-length-indicator-settings.php:211
 #@ post-length-indicator
 msgid "Post Length Indicator Settings"
 msgstr ""
 
-#: classes/class-post-length-indicator-settings.php:240
+#: classes/class-post-length-indicator-settings.php:218
 #@ plugin_textdomain
 msgid "Save Settings"
+msgstr ""
+
+#: classes/class-post-length-indicator.php:66
+#@ post-length-indicator
+msgid "Comments"
 msgstr ""
 

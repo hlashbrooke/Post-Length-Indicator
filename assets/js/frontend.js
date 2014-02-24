@@ -19,4 +19,19 @@ jQuery(document).ready( function($) {
 	$(window).resize(function () {
 	   jQuery.fn.setIndicatorHeights();
 	});
+
+	jQuery.fn.scrollToElement = function( target ) {
+		var topoffset = 30;
+	    var speed = 500;
+	    var destination = $( target ).offset().top - topoffset;
+	    $( 'html:not(:animated),body:not(:animated)' ).animate( { scrollTop: destination }, speed );
+	}
+
+	$('.comments_length').click( function () {
+		jQuery.fn.scrollToElement( '#comments' );
+	});
+
+	$('.post_length').click( function () {
+		jQuery.fn.scrollToElement( '#content' );
+	});
 });

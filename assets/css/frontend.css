@@ -1,14 +1,30 @@
-#post_length_indicator {
-	position: fixed;
-	right: 0;
-	top: 0;
-	width: 10px;
-	z-index: 100;
-	-webkit-transition: width 0.2s ease;
-	-moz-transition: width 0.2s ease;
-	-o-transition: width 0.2s ease;
-	transition: width 0.2s ease;
+#post_length_indicator { position: fixed; right: 0; top: 0; width: 10px; z-index: 100; -webkit-transition: width 0.2s ease; -moz-transition: width 0.2s ease; -o-transition: width 0.2s ease; transition: width 0.2s ease; }
+#post_length_indicator:hover { width: 20px; }
+#post_length_indicator .indicator { position: relative; cursor:pointer; }
+#post_length_indicator .indicator div {
+	display: none;
+	position: absolute;
+	top: 50%;
+	right: 30px;
 }
-#post_length_indicator:hover {
-	width: 20px;
+#post_length_indicator:hover .indicator div {
+	display: block;
+}
+#post_length_indicator .indicator div:after {
+	display: block;
+	color: #000;
+	font-family: dashicons;
+	content: "\f139";
+	position: absolute;
+	top: 0;
+	right: -17px;
+	line-height: 34px;
+	font-size: 30px;
+}
+#post_length_indicator .indicator div span {
+	display: block;
+	background: #000;
+	color: #FFF;
+	padding: 5px 10px;
+	border-radius: 10px;
 }
