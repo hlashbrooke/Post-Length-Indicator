@@ -3,7 +3,7 @@ Contributors: hlashbrooke
 Donate link: http://www.hughlashbrooke.com/donate
 Tags: post, length, comments, readbility
 Requires at least: 3.0
-Tested up to: 3.8.1
+Tested up to: 4.0
 Stable tag: 1.0
 
 Displays a dual-coloured bar alongside the scrollbar to indicate how much of the page contains the post and how much contains the comments.
