@@ -3,7 +3,7 @@ Contributors: hlashbrooke
 Donate link: http://www.hughlashbrooke.com/donate
 Tags: post, length, comments, readbility
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 5.0
 Stable tag: 1.0
 
 Displays a dual-coloured bar alongside the scrollbar to indicate how much of the page contains the post and how much contains the comments.
@@ -14,9 +14,7 @@ Displays a dual-coloured bar alongside the scrollbar to indicate how much of the
 
 The indicator will show on all posts that have comments, or that have comments enabled even if there are no comments yet. Text labels will display next to the indicator when a user hovers over it and clicking on each of the indicator sections will scroll the page to the top of the post content or the comments, depending which secion was clicked.
 
-The colours of the indicator can be changed from the plugin settings page, as well as the post types for which it must appear. The plugin is fully translatable with WPML.
-
-You can see this plugin on action on my website: http://www.hughlashbrooke.com
+The colours of the indicator can be changed from the plugin settings page, as well as the post types for which it must appear.
 
 Contribute to this plugin on GitHub: https://github.com/hlashbrooke/Post-Length-Indicator
 

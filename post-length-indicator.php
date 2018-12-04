@@ -2,12 +2,12 @@
 /*
  * Plugin Name: Post Length Indicator
  * Version: 1.0
- * Plugin URI: http://www.hughlashbrooke.com/
+ * Plugin URI: https://wordpress.org/plugins/post-length-indicator/
  * Description: Displays a dual-coloured bar alongside the scrollbar to indicate how much of the page contains the post and how much contains the comments.
  * Author: Hugh Lashbrooke
- * Author URI: http://www.hughlashbrooke.com/
+ * Author URI: https://hugh.blog/
  * Requires at least: 3.0
- * Tested up to: 4.0
+ * Tested up to: 5.0
  *
  * @package WordPress
  * @author Hugh Lashbrooke
